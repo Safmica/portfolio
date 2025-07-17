@@ -6,6 +6,10 @@ const config: Config = {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
       },
+      colors: {
+        primary: "#1b1f24",
+        secondary: "#fbbf24",
+      },
     },
   },
   content: [
