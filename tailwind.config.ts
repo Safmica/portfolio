@@ -8,7 +8,7 @@ const config: Config = {
       },
       colors: {
         primary: "#1b1f24",
-        secondary: "#fbbf24",
+        mainText: "#fbbf24",
       },
     },
   },
