@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portofolio Website Muhammad Safarudin Pratama",
-  description: "Personal portfolio website of Muhammad Safarudin Pratama",
+  title: "Portfolio Website Muhammad Safarudin Pratama",
+  description: "Personal portflio website of Muhammad Safarudin Pratama",
 };
 
 export default function RootLayout({
@@ -24,6 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
