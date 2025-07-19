@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Index() {
   return (
     <div className="w-full bg-primary">
-      <div className="max-w-7xl mx-auto px-6 pt-3 flex items-center justify-center font-outfit">
+      <div className="max-w-2xl mx-auto px-6 pt-3 flex items-center justify-center font-outfit">
         <Image
           className="drop-shadow-xl"
           src="/safar_index.png"
